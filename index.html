@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lash Extension Training</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./favicon_io/site.webmanifest">
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <img src="./assets/images/lashCraft-Logo-Transparent-BG.png" alt="Lash Craft Logo" style="width: 100px; margin: -30px 0;">
+            <h1>Lash Extension Trainer</h1>
+            <div class="score-board">
+                <span>Score: <span id="score">0</span></span>
+                <span>Placed: <span id="placed-count">0</span>/20</span>
+            </div>
+        </header>
+
+        <main class="training-area">
+            <!-- Eye Model Canvas -->
+            <div class="eye-container">
+                <canvas id="eye-canvas" width="400" height="300"></canvas>
+                <div class="placement-guides"></div>
+            </div>
+
+            <!-- Lash Supply Area -->
+            <div class="lash-supply">
+                <h3>Lash Supply</h3>
+                <div class="lash-tray" id="lash-tray">
+                    <!-- Lashes will be dynamically generated here -->
+                </div>
+            </div>
+
+            <!-- Instructions -->
+            <div class="instructions">
+                <p class="desktop-instruction">Desktop: Click and drag lashes to the eye</p>
+                <p class="mobile-instruction">Mobile: Pinch to pick up lashes, then drag to place</p>
+            </div>
+        </main>
+
+        <!-- Feedback Modal -->
+        <div id="feedback-modal" class="modal hidden">
+            <div class="modal-content">
+                <span class="close-modal" id="close-modal">&times;</span>
+                <h2 id="feedback-title">Great Placement!</h2>
+                <p id="feedback-message">Perfect positioning on the natural lash.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>

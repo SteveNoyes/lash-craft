@@ -1,0 +1,59 @@
+:root {
+  /* 
+    Elegant & Modern (Luxury Feel)
+    Great for beauty industry branding, polished and professional.
+  */
+  /* Deep Charcoal */
+  --primary-lux: #2B2B2B;
+  /* Rose Gold */
+  --secondary-lux: #B76E79;
+  /* Soft Blush */
+  --accent-lux: #F4D1D9;
+  /* Off-White */
+  --background-lux: #FAF9F7;
+  /* Sage Green */
+  /* Success / Positive Feedback */
+  --success-lux: #A4C3A2;
+  /* Warm Coral */
+  --error-lux: #E07A5F;
+}
+
+:root {
+  /* 
+    Clean & Minimalist (Tech Training + Beauty Blend)
+    Balances the training/assessment aspect with a modern UI feel.
+  */
+  /* Midnight Navy */
+  --primary-clean: #2E3A59;
+  /* Lavender Mist */
+  --secondary-clean: #C8B5E1;
+  /* Soft Lilac */
+  --accent-clean: #EDE6F6;
+  /* Pure White */
+  --background-clean: #FFFFFF;
+  /* Fresh Mint */
+  /* Success / Positive Feedback */
+  --success-clean: #91E0AC;
+  /* Crimson Red */
+  --error-clean: #D64550;
+}
+
+:root {
+  /* 
+    Soft & Friendly (Learning-Focused)
+    Gentle pastel-based theme for students and beginners.
+  */
+  /* Dusty Mauve */
+  --primary-soft: #A67894;
+  /* Warm Taupe */
+  --secondary-soft: #D8C3B3;
+  /* Peach Blush */
+  --accent-soft: #F7D9C4;
+  /* Cream White */
+  --background-soft: #FFFBF7;
+  /* Light Green */
+  /* Success / Positive Feedback */
+  --success-soft: #AED9A4;
+  /* Warm Pink */
+  --error-soft: #F28B82;
+}

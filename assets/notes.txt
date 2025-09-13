@@ -1,0 +1,79 @@
+Lash Technician Training App Documentation
+
+Overview
+
+The Lash Technician Training App is an interactive learning platform designed to help aspiring lash artists practice and perfect their lash placement skills. Using advanced drag-and-drop simulation, the app allows users to pinch, drag, and place lashes on a digital model, replicating the precision required in a real-world lash extension application.
+
+The app provides instant feedback on placement accuracy, angle, and spacing, helping users build confidence and refine their technique.
+
+Key Features
+
+Interactive Practice Test
+A drag-and-drop interface where users pinch, drag, and place virtual lashes onto the lash line.
+
+Placement Accuracy Assessment
+The app measures alignment, spacing, and lash angle, then provides a performance score.
+
+Real-Time Feedback & Tips
+Users receive targeted pointers to improve their technique (e.g., spacing too close, angle too sharp, placement off the lash line).
+
+Progress Tracking
+Each session is recorded so users can track improvement over time.
+
+Learning Modules (optional add-on)
+Educational content on lash safety, lash types, styling, and best practices for professional applications.
+
+User Workflow
+
+Login / Create Profile
+Users create a profile to save progress and results.
+
+Start Practice Session
+Choose a practice module (beginner, intermediate, advanced).
+
+Pinch, Drag, and Place Test
+
+Pinch to pick up a virtual lash.
+
+Drag it onto the lash line.
+
+Drop to apply.
+
+Receive Feedback
+After placement, the app highlights adjustments needed (e.g., "Try adjusting the angle to match the natural lash line").
+
+Review Results
+A scoring breakdown shows strengths and areas for improvement.
+
+Repeat & Improve
+Users can repeat practice sessions to build accuracy and consistency.
+
+Feedback Categories
+
+Accuracy – How close the lash is to the natural lash line.
+
+Angle – Whether the lash is aligned at a natural angle.
+
+Spacing – Ensuring lashes are placed evenly with no overlap.
+
+Isolation – Simulated check for proper lash isolation before placement.
+
+Example Feedback Messages
+
+"Great job! Your spacing looks natural and even."
+
+"Your lash is slightly angled inward. Try aligning with the natural lash line."
+
+"This lash is too close to the previous one. Leave more space for comfort and safety."
+
+"Excellent placement — lash is secure and well-aligned!"
+
+Benefits
+
+Provides a safe, virtual environment for practicing lash techniques.
+
+Builds confidence before working with real clients.
+
+Offers structured feedback to accelerate skill development.
+
+Accessible anytime, allowing students to train at their own pace.

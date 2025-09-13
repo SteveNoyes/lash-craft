@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Theme Example</title>
+  <style>
+
+    :root {
+      /* 
+        Elegant & Modern (Luxury Feel)
+        Great for beauty industry branding, polished and professional.
+      */
+      /* Deep Charcoal */
+      --primary-lux: #2B2B2B;
+      /* Rose Gold */
+      --secondary-lux: #B76E79;
+      /* Soft Blush */
+      --accent-lux: #F4D1D9;
+      /* Off-White */
+      --background-lux: #FAF9F7;
+      /* Sage Green */
+      /* Success / Positive Feedback */
+      --success-lux: #A4C3A2;
+      /* Warm Coral */
+      --error-lux: #E07A5F;
+    }
+
+    :root {
+      /* 
+        Clean & Minimalist (Tech Training + Beauty Blend)
+        Balances the training/assessment aspect with a modern UI feel.
+      */
+      /* Midnight Navy */
+      --primary-clean: #2E3A59;
+      /* Lavender Mist */
+      --secondary-clean: #C8B5E1;
+      /* Soft Lilac */
+      --accent-clean: #EDE6F6;
+      /* Pure White */
+      --background-clean: #FFFFFF;
+      /* Fresh Mint */
+      /* Success / Positive Feedback */
+      --success-clean: #91E0AC;
+      /* Crimson Red */
+      --error-clean: #D64550;
+    }
+
+    :root {
+      /* 
+        Soft & Friendly (Learning-Focused)
+        Gentle pastel-based theme for students and beginners.
+      */
+      /* Dusty Mauve */
+      --primary-soft: #A67894;
+      /* Warm Taupe */
+      --secondary-soft: #D8C3B3;
+      /* Peach Blush */
+      --accent-soft: #F7D9C4;
+      /* Cream White */
+      --background-soft: #FFFBF7;
+      /* Light Green */
+      /* Success / Positive Feedback */
+      --success-soft: #AED9A4;
+      /* Warm Pink */
+      --error-soft: #F28B82;
+    }
+
+    :root {
+      /* Lux */
+      /* --color-primary: #2B2B2B;  
+      --color-secondary: #B76E79; 
+      --color-accent: #F4D1D9;   
+      --color-background: #FAF9F7;
+      --color-success: #A4C3A2; 
+      --color-error: #E07A5F; */
+
+      /* Clean */
+      /* --color-primary: #2E3A59;  
+      --color-secondary: #C8B5E1; 
+      --color-accent: #EDE6F6;   
+      --color-background: #FFFFFF;
+      --color-success: #91E0AC; 
+      --color-error: #D64550; */
+
+      /* Soft */
+      --color-primary: #A67894;  
+      --color-secondary: #D8C3B3; 
+      --color-accent: #F7D9C4;   
+      --color-background: #FFFBF7;
+      --color-success: #AED9A4; 
+      --color-error: #F28B82;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: var(--color-background);
+      color: #111827;
+    }
+
+    header {
+      background: var(--color-primary);
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background: var(--color-secondary);
+      padding: 0.5rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .accent-box {
+      background: var(--color-accent);
+      padding: 1.5rem;
+      text-align: center;
+      border-radius: 8px;
+      margin: 2rem auto;
+      width: 60%;
+      color: white;
+    }
+
+    .status-messages {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin: 2rem;
+    }
+
+    .success {
+      background: var(--color-success);
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 6px;
+    }
+
+    .error {
+      background: var(--color-error);
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 6px;
+    }
+
+    footer {
+      background: var(--color-primary);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Color Theme Demo</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="accent-box">
+    <h2>This is the Accent Box</h2>
+    <p>Accent color is used for highlights or special sections.</p>
+  </section>
+
+  <div class="status-messages">
+    <div class="success">Success Message</div>
+    <div class="error">Error Message</div>
+  </div>
+
+  <footer>
+    <p>Footer with Primary Color</p>
+  </footer>
+</body>
+</html>
