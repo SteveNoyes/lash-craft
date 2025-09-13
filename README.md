@@ -24,6 +24,8 @@ The app provides **instant feedback** on placement accuracy, angle, and spacing,
 - **Learning Modules (optional)**  
   Includes lash safety, lash types, styling, and professional best practices.
 
+  https://stevenoyes.github.io/lash-craft/
+
 ---
 
 ## 🛠 User Workflow
