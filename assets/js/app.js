@@ -369,22 +369,22 @@ class LashTrainingApp {
 
             if (this.placedCount === 3) {
                 setTimeout(() => {
-                    this.showFeedback('Perfect Placement!', 'Great positioning on the natural lash.');
+                    this.showFeedback('Perfect Placement!', 'Great positioning on the lash.');
                 }, 1000);
             }
             if (this.placedCount === 11) {
                 setTimeout(() => {
-                    this.showFeedback('Perfect Placement!', 'Great positioning on the natural lash.');
+                    this.showFeedback('Great Placement!', 'Great positioning on the lash.');
                 }, 1000);
             }
             if (this.placedCount === 31) {
                 setTimeout(() => {
-                    this.showFeedback('Perfect Placement!', 'Great positioning on the natural lash.');
+                    this.showFeedback('Perfect Placement!', 'Great positioning on the lash.');
                 }, 1000);
             }
             if (this.placedCount === this.totalLashes) {
                 setTimeout(() => {
-                    this.showFeedback('Perfect Placement!', 'Great positioning on the natural lash.');
+                    this.showFeedback('Great Placement!', 'Great positioning on the lash.');
                     this.showFeedback('Training Complete!', `Final Score: ${this.score} points`);
                 }, 1000);
             }
